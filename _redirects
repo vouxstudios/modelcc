@@ -1,5 +1,6 @@
-# Posts that already have .html
+# Blog posts → Blogger subdomain
 /20*/*/*.html  https://blog.candicoatedmodel.com/:splat  301
-
-# Posts without .html
 /20*/*/*       https://blog.candicoatedmodel.com/:splat.html 301
+
+# Optional old blog folder redirect
+/blog/*        https://blog.candicoatedmodel.com/:splat 301
