@@ -1,2 +1,5 @@
-# Redirect year/month posts to Blogger
-/20*/*/*  https://blog.candicoatedmodel.com/:splat.html  301
+# Posts that already have .html
+/20*/*/*.html  https://blog.candicoatedmodel.com/:splat  301
+
+# Posts without .html
+/20*/*/*       https://blog.candicoatedmodel.com/:splat.html 301
