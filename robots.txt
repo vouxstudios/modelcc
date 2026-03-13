@@ -1,5 +1,5 @@
-robots.txt 
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://candicoatedmodel.com/sitemap.xml
+
